@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Orelhão | Coisas Brasileiras</title>
+<link rel="stylesheet" href="css/stylesheet.css">
+
+</head>
+<body>
+
+  <header>
+    <input type="checkbox" id="menu-toggle" >
+    <label for="menu-toggle" class="hamburguer">☰ MENU</label>
+
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="almirantenegro.html">ALMIRANTE NEGRO</a>
+      <a href="ozob.html">OZOB</a>
+      <a href="caramelo.html">CARAMELO</a>
+      <a href="musicabr.html">MUSICA</a>
+      <a href="orelhao.html" >ORELHÃO</a>
+      <a href="51.html">51</a>
+      <a href="soro.html">SORO ANTIOFÍDICO</a>
+      <a href="buzsheep.html">BUZSHEEP</a>
+      <a href="quemsomoos.html">QUEM SOMOS</a>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <div class="retangulo_central layout-1">
+    <img class="img-preto" src="img/orelhão.jpg" alt="Orelhão azul, o telefone público brasileiro, com o logotipo da Oi">
+    <div class="centro">
+
+      <section class="bloco">
+
+        <h1>Orelhão</h1>
+
+        <p>O orelhão é o telefone público mais famoso do Brasil, e o nome vem da cabine em forma de concha, que lembra uma grande orelha. Ele foi criado em 1971 pela arquiteta Chu Ming Silveira, nascida na China e radicada no Brasil, quando ela chefiava o Departamento de Projetos da Companhia Telefônica Brasileira (CTB). O desafio era proteger o aparelho da chuva e do barulho da rua com uma solução barata, resistente e bonita.</p>
+
+      </section>
+
+      <section class="bloco">
+
+        <h2>Mais detalhes</h2>
+
+        <p>Também chamado de “tulipa” e de “capacete de astronauta”, o orelhão virou símbolo das cidades brasileiras e até personagem de filmes. Com a popularização do celular ele perdeu espaço, e a Anatel prevê a retirada gradual dos telefones públicos a partir de 2026. Mas a memória das filas, das fichas e dos cartões telefônicos continua viva.</p>
+
+      </section>
+
+      <section class="bloco">
+        <h2>TESTE DE IDADE</h2>
+        <p>Dê o play e ouça o tom de discar, as teclas e o toque de chamada, como se você estivesse de fichas na mão.</p>
+        <div class="audio-player">
+          <audio id="audioOrelhao" src="audio/orelhao.mp3" preload="metadata"></audio>
+          <div class="controls">
+            <button id="orelhaoInicio" type="button" aria-label="Voltar ao início" title="Voltar ao início">⏮</button>
+            <button id="orelhaoPlay" type="button" aria-label="Tocar" title="Tocar">▶</button>
+            <button id="orelhaoVolDown" type="button" aria-label="Diminuir volume" title="Diminuir volume">🔉</button>
+            <button id="orelhaoVolUp" type="button" aria-label="Aumentar volume" title="Aumentar volume">🔊</button>
+            <button id="orelhaoMudo" type="button" aria-label="Silenciar" title="Silenciar" aria-pressed="false">🔇</button>
+            <button id="orelhaoRepetir" type="button" aria-label="Repetir" title="Repetir" aria-pressed="false">🔁</button>
+          </div>
+          <input id="orelhaoProgresso" type="range" min="0" max="100" step="0.1" value="0" aria-label="Posição do áudio">
+          <span id="orelhaoTempo" class="tempo">0:00 / 0:00</span>
+        </div>
+      </section>
+    </div>
+    <img class="img-preto" src="img/orelhão_e.jpg" >
+  </div>
+
+</main>
+
+<footer>
+  <p>Projeto Universitário - 100% MADE IN BRASIL - Alto em malandragem
+    <br>© 2026 Gabriel Rezenede e Eduardo Cavallo. Algumas artes são originais dos autores; as demais pertencem aos seus respectivos criadores. Desenvolvido na Positivo.</p>
+</footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
